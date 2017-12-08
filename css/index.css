@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 75vh;
+}
+.site-middle {
+  font-weight: bold;
+  font-size: 52px;
+  font-family: 'Nunito', sans-serif;
+}
