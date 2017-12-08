@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="../js/guessing.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../css/guessing.css" />
+  <link rel="stylesheet" type="text/css" href="../css/main.css" />
+  <meta charset="UTF-8" />
+  <title>Guessing 1 | Hailey's Website</title>
+</head>
+<body>
+  <div class="center">
+  <div class="pagination">
+    <a href="../index.html">Home</a>
+    <a href="/games.html" class="active">Games</a>
+    <a href="../about/about.html">About</a>
+    <a href="../dogs/dogs.html">Dogs</a>
+    <a href="../cats/cats.html">Cats</a>
+  </div>
+  </div>
+  <div class="container">
+    <p class="hints">1. Everyone has one of me.</p>
+    <p class="hints">2. Some people have more than one of me.</p>
+    <p class="hints">3. Many people look up to this.</p>
+    Either click the button or press enter to guess!
+    <br>
+    <br>
+    <center>
+      <span class="guesstext">Guess: </span><input type="text" id="guess" class="guess">
+      <p id="out"></p>
+      <button onclick="guess()">Guess!</button>
+    </center>
+  </div>
+  <br>
+  <br>
+  <div class="pagination">
+  <div class="center">
+    <a id="next" class="next" href="guessing2.html">Next Game!</a>
+  </div>
+  </div>
+</body>
+</html>
